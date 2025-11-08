@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="59.554" tests="8" errors="0" skipped="3" failures="1">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="surefire.suiteXmlFiles" value="src/test/resources/testrunners/testng_regression.xml"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\opt\apache-maven-3.9.11\boot\plexus-classworlds-2.9.0.jar"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="America/Toronto"/>
+    <property name="maven.conf" value="C:\opt\apache-maven-3.9.11/conf"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CA"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11\bin"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install -Dsurefire.suiteXmlFiles=src/test/resources/testrunners/testng_regression.xml -Denv=dev"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="maven.home" value="C:\opt\apache-maven-3.9.11"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\ann8b"/>
+    <property name="user.language" value="en"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2025-04-15"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.27+8-LTS-232"/>
+    <property name="user.name" value="ann8b"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\ann8b\AppData\Local\Temp\"/>
+    <property name="java.version" value="11.0.27"/>
+    <property name="user.dir" value="C:\Users\ann8b\eclipse-workspace\March2025Framework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\ann8b\eclipse-workspace\March2025Framework"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="env" value="dev"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\opt\apache-maven-3.9.11\bin;C:\Program Files\Java\jdk-11\bin;C:\Users\ann8b\AppData\Local\Microsoft\WindowsApps;C:\Users\ann8b\scoop\shims;C:\Windows\System32;;."/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vm.version" value="11.0.27+8-LTS-232"/>
+    <property name="java.specification.maintenance.version" value="3"/>
+    <property name="classworlds.conf" value="C:\opt\apache-maven-3.9.11\bin\m2.conf"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="library.jansi.path" value="C:\opt\apache-maven-3.9.11\lib\jansi-native"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="isForgotPwdLinkExistTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.659"/>
+  <testcase name="isLoginPageHeaderExistTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.495"/>
+  <testcase name="loginPageTitleTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.022"/>
+  <testcase name="loginPageURLTest" classname="com.qa.opencart.tests.LoginPageTest" time="0.012"/>
+  <testcase name="loginTest" classname="com.qa.opencart.tests.LoginPageTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of element located by By.linkText: Logout (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.27&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\ann8b\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59044/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e11d3949992eed0572e13bcf89dc7757"/>
+    <system-out><![CDATA[I am in onTestStart method loginTest start
+2025-10-13 21:52:52 INFO  LoginPage:79 - application credentials: sujit.patra786@gmail.com : Sujit@123
+2025-10-13 21:52:52 INFO  ElementUtil:340 - waiting for element using By locator: By.id: input-emailwithin time out: 10
+2025-10-13 21:52:53 INFO  ElementUtil:50 - entering the value :Sujit@123 into locator: By.id: input-password
+2025-10-13 21:52:53 INFO  ElementUtil:186 - element is  found using : By.id: input-password
+2025-10-13 21:52:54 INFO  ElementUtil:70 - clicking  on element using :By.xpath: //input[@value='Login']
+2025-10-13 21:52:54 INFO  ElementUtil:186 - element is  found using : By.xpath: //input[@value='Login']
+2025-10-13 21:52:54 INFO  ElementUtil:340 - waiting for element using By locator: By.linkText: Logoutwithin time out: 10
+I am in onTestSkipped method loginTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="com.qa.opencart.tests.LoginPageTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of element located by By.linkText: Logout (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.27&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\ann8b\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59044/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e11d3949992eed0572e13bcf89dc7757"/>
+    <system-out><![CDATA[I am in onTestStart method loginTest start
+2025-10-13 21:53:05 INFO  LoginPage:79 - application credentials: sujit.patra786@gmail.com : Sujit@123
+2025-10-13 21:53:05 INFO  ElementUtil:340 - waiting for element using By locator: By.id: input-emailwithin time out: 10
+2025-10-13 21:53:05 INFO  ElementUtil:50 - entering the value :Sujit@123 into locator: By.id: input-password
+2025-10-13 21:53:05 INFO  ElementUtil:186 - element is  found using : By.id: input-password
+2025-10-13 21:53:06 INFO  ElementUtil:70 - clicking  on element using :By.xpath: //input[@value='Login']
+2025-10-13 21:53:06 INFO  ElementUtil:186 - element is  found using : By.xpath: //input[@value='Login']
+2025-10-13 21:53:07 INFO  ElementUtil:340 - waiting for element using By locator: By.linkText: Logoutwithin time out: 10
+I am in onTestSkipped method loginTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="com.qa.opencart.tests.LoginPageTest" time="0">
+    <skipped message="Expected condition failed: waiting for visibility of element located by By.linkText: Logout (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.27&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\ann8b\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59044/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e11d3949992eed0572e13bcf89dc7757"/>
+    <system-out><![CDATA[I am in onTestStart method loginTest start
+2025-10-13 21:53:17 INFO  LoginPage:79 - application credentials: sujit.patra786@gmail.com : Sujit@123
+2025-10-13 21:53:17 INFO  ElementUtil:340 - waiting for element using By locator: By.id: input-emailwithin time out: 10
+2025-10-13 21:53:18 INFO  ElementUtil:50 - entering the value :Sujit@123 into locator: By.id: input-password
+2025-10-13 21:53:18 INFO  ElementUtil:186 - element is  found using : By.id: input-password
+2025-10-13 21:53:18 INFO  ElementUtil:70 - clicking  on element using :By.xpath: //input[@value='Login']
+2025-10-13 21:53:18 INFO  ElementUtil:186 - element is  found using : By.xpath: //input[@value='Login']
+2025-10-13 21:53:19 INFO  ElementUtil:340 - waiting for element using By locator: By.linkText: Logoutwithin time out: 10
+I am in onTestSkipped method loginTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="loginTest" classname="com.qa.opencart.tests.LoginPageTest" time="12.718">
+    <failure message="Expected condition failed: waiting for visibility of element located by By.linkText: Logout (tried for 10 second(s) with 500 milliseconds interval)&#10;Build info: version: &apos;4.35.0&apos;, revision: &apos;1c58e5028b&apos;&#10;System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.27&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\ann8b\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59044/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}&#10;Session ID: e11d3949992eed0572e13bcf89dc7757" type="org.openqa.selenium.TimeoutException">org.openqa.selenium.TimeoutException: 
+Expected condition failed: waiting for visibility of element located by By.linkText: Logout (tried for 10 second(s) with 500 milliseconds interval)
+Build info: version: '4.35.0', revision: '1c58e5028b'
+System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.27'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 141.0.7390.66, chrome: {chromedriverVersion: 141.0.7390.76 (d6fcfbb51aac..., userDataDir: C:\Users\ann8b\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59044}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59044/devtoo..., se:cdpVersion: 141.0.7390.66, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e11d3949992eed0572e13bcf89dc7757
+	at com.qa.opencart.tests.LoginPageTest.loginTest(LoginPageTest.java:60)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method loginTest start
+2025-10-13 21:53:30 INFO  LoginPage:79 - application credentials: sujit.patra786@gmail.com : Sujit@123
+2025-10-13 21:53:30 INFO  ElementUtil:340 - waiting for element using By locator: By.id: input-emailwithin time out: 10
+2025-10-13 21:53:30 INFO  ElementUtil:50 - entering the value :Sujit@123 into locator: By.id: input-password
+2025-10-13 21:53:30 INFO  ElementUtil:186 - element is  found using : By.id: input-password
+2025-10-13 21:53:31 INFO  ElementUtil:70 - clicking  on element using :By.xpath: //input[@value='Login']
+2025-10-13 21:53:31 INFO  ElementUtil:186 - element is  found using : By.xpath: //input[@value='Login']
+2025-10-13 21:53:32 INFO  ElementUtil:340 - waiting for element using By locator: By.linkText: Logoutwithin time out: 10
+I am in onTestFailure method loginTest failed
+Screenshot captured for test case:loginTest
+]]></system-out>
+  </testcase>
+</testsuite>
