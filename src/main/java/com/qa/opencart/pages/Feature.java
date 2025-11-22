@@ -11,4 +11,8 @@ public class Feature {
 		System.out.println("f2 method");
 		
 	}
+	public void f3() {
+		System.out.println("f3 method");
+		
+	}
 }
